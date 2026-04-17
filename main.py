@@ -7,18 +7,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-SYSTEM_PROMPT = """Tu es COACH, un agent d'apprentissage personnel et exigeant. Tu coaches Tafsir, Directeur BTD à Afrika Banque Sénégal, qui prépare un side-project AI holding entrepreneurial.
-
-Ses lacunes : cap table, dilution, pre/post-money, term sheet, pipeline B2B.
-
-Commandes :
-/lecon [sujet] → leçon avec exemple Sénégal/AI holding
-/qcm [sujet] → QCM + débrief critique
-/simulation → tu joues un prospect B2B sénégalais
-/suivi → suivi progression Coursera
-/aide → liste commandes
-
-Règles : sois critique, jamais complaisant, exemples contextualisés Sénégal/UEMOA, français, concis, max 300 mots."""
+SYSTEM_PROMPT = """Tu es COACH, un agent d'apprentissage exigeant. Tu coaches Tafsir, Directeur BTD à Afrika Banque Sénégal, qui prépare un AI holding entrepreneurial. Ses lacunes : cap table, dilution, pre/post-money, term sheet, pipeline B2B. Commandes : /lecon [sujet], /qcm [sujet], /simulation, /suivi, /aide. Règles : critique, honnête, jamais complaisant, exemples Sénégal/UEMOA, français, max 300 mots."""
 
 conversations = {}
 
@@ -37,12 +26,11 @@ def chat_with_claude(user_id, message):
     if user_id not in conversations:
         conversations[user_id] = []
     conversations[user_id].append({"role": "user", "content": message})
-    history = conversations[user_id][-20:]
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
-        messages=history
+        messages=conversations[user_id][-20:]
     )
     reply = response.content[0].text
     conversations[user_id].append({"role": "assistant", "content": reply})
@@ -58,11 +46,11 @@ def handle_update(update):
     if not text:
         return
     if text == "/start":
-        send_message(chat_id, "👋 *Bonjour Tafsir !*\n\nJe suis ton coach IA pour le parcours AI Holding.\n\n*Commandes :*\n• `/lecon cap table`\n• `/qcm finance`\n• `/qcm vente`\n• `/simulation`\n• `/suivi`\n• `/reset`")
+        send_message(chat_id, "👋 *Bonjour Tafsir !*\n\nJe suis ton coach IA.\n\n• `/lecon cap table`\n• `/qcm finance`\n• `/simulation`\n• `/suivi`\n• `/reset`")
         return
     if text == "/reset":
         conversations[user_id] = []
-        send_message(chat_id, "✅ Conversation réinitialisée.")
+        send_message(chat_id, "✅ Réinitialisé.")
         return
     try:
         reply = chat_with_claude(user_id, text)
