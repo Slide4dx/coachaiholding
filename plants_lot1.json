@@ -1,0 +1,750 @@
+[
+  {
+    "id": "gobu",
+    "cat": "feuille",
+    "name": "Agératum",
+    "name_latin": "Ageratum conyzoides",
+    "name_wolof": "Gobu",
+    "name_bambara": "Boroni",
+    "summary": "Plante herbacée annuelle de la famille des Astéracées, omniprésente dans les zones cultivées et les bords de chemins en Afrique de l'Ouest. Utilisée traditionnellement pour ses propriétés cicatrisantes, antimicrobiennes et anti-inflammatoires.",
+    "effs": ["antiinflammatoire", "antibacterien", "cicatrisant", "antifongique", "antalgique"],
+    "actifs": [
+      "Précocènes I et II — Inhibiteurs de la métamorphose des insectes, activité antimicrobienne",
+      "Flavonoïdes (quercétine, kaempférol) — Effet antioxydant et anti-inflammatoire",
+      "Huile essentielle — Action antibactérienne et antifongique",
+      "Coumarines — Activité anticoagulante et spasmolytique"
+    ],
+    "props": [
+      ["Cicatrisation des plaies", "Le suc des feuilles fraîches accélère la fermeture des plaies superficielles et prévient les surinfections bactériennes."],
+      ["Anti-infectieux cutané", "Efficace contre les dermatoses, eczémas et infections fongiques par application topique répétée."],
+      ["Antalgique articulaire", "Le cataplasme de feuilles soulage les douleurs rhumatismales et les entorses."],
+      ["Antidiarrhéique léger", "La décoction des parties aériennes calme les diarrhées simples non infectieuses."]
+    ],
+    "preps": [
+      ["Suc frais", "Écraser une poignée de feuilles fraîches, appliquer le jus directement sur la plaie 2 à 3 fois par jour"],
+      ["Décoction", "30 g de plante entière dans 1 L d'eau, bouillir 10 min, boire 1 tasse 3 fois par jour"],
+      ["Cataplasme", "Feuilles pilées avec un peu d'eau tiède, appliquer sur la zone douloureuse pendant 30 min"]
+    ],
+    "warns": [
+      ["caution", "Contient des alcaloïdes pyrrolizidiniques potentiellement hépatotoxiques en usage interne prolongé — limiter à 7 jours consécutifs"],
+      ["danger", "Déconseillé pendant la grossesse et l'allaitement"],
+      ["info", "Préférer les feuilles jeunes, plus riches en principes actifs"]
+    ],
+    "disponibilite_dakar": "Très élevée",
+    "prix_dakar": "200 à 500 FCFA / kg"
+  },
+  {
+    "id": "sindian",
+    "cat": "racine",
+    "name": "Casse de Sieber",
+    "name_latin": "Cassia sieberiana",
+    "name_wolof": "Sindian",
+    "name_bambara": "Sinjan",
+    "summary": "Petit arbre de savane à fleurs jaunes pendantes très répandu au Sénégal et au Mali. Ses racines constituent l'un des remèdes traditionnels les plus consommés contre le paludisme et les troubles digestifs.",
+    "effs": ["antipaludique", "laxatif", "diuretique", "antiinflammatoire", "fortifiant"],
+    "actifs": [
+      "Anthraquinones (sennosides, rhéine) — Action laxative par stimulation du péristaltisme colique",
+      "Flavonoïdes — Activité antioxydante et antipaludique",
+      "Tanins — Effet astringent et antibactérien",
+      "Saponines — Propriétés expectorantes et anti-inflammatoires"
+    ],
+    "props": [
+      ["Antipaludique traditionnel", "La décoction de racines est administrée en cures de 3 à 5 jours pour les accès palustres modérés."],
+      ["Laxatif puissant", "Les anthraquinones provoquent une évacuation intestinale en 6 à 12 heures sans crampes excessives à dose modérée."],
+      ["Diurétique et dépuratif", "Stimule l'élimination rénale et est utilisée dans les œdèmes et rétentions d'eau."],
+      ["Tonique général", "Les tradipraticiens prescrivent la racine en cure post-partum et pour la convalescence."]
+    ],
+    "preps": [
+      ["Décoction de racines", "20 à 30 g de racines coupées dans 1 L d'eau, bouillir 20 min, boire 1 verre matin et soir pendant 3 à 5 jours"],
+      ["Macération", "50 g de racines pilées dans 1 L d'eau pendant 12 h, filtrer, boire 1 verre par jour"],
+      ["Poudre", "1 cuillère à café de poudre de racine dans une boisson chaude, 1 fois par jour"]
+    ],
+    "warns": [
+      ["danger", "Contre-indiqué en cas de grossesse, occlusion intestinale, maladies inflammatoires chroniques de l'intestin"],
+      ["caution", "Usage laxatif limité à 7 jours pour éviter la dépendance et les troubles électrolytiques"],
+      ["info", "Surdosage : crampes abdominales, diarrhée sévère, hypokaliémie"]
+    ],
+    "disponibilite_dakar": "Élevée",
+    "prix_dakar": "1000 à 2000 FCFA / kg"
+  },
+  {
+    "id": "denguide",
+    "cat": "ecorce",
+    "name": "Poivre du Sénégal",
+    "name_latin": "Zanthoxylum zanthoxyloides",
+    "name_wolof": "Denguidé",
+    "name_bambara": "Wo",
+    "summary": "Arbuste épineux des savanes ouest-africaines dont les racines et écorces servent traditionnellement comme bâtons à mâcher. Très étudié pour ses effets antifalcémiques et antipaludiques.",
+    "effs": ["antifalcemique", "antipaludique", "antalgique", "antibacterien", "odontologique"],
+    "actifs": [
+      "Acide subérique et acide vanillique — Effet antifalcémique démontré (FACA®)",
+      "Alcaloïdes (fagaronine, chélérythrine) — Activité antitumorale et antibactérienne",
+      "Coumarines — Action antiparasitaire",
+      "Lignanes — Propriétés anti-inflammatoires"
+    ],
+    "props": [
+      ["Antidrépanocytaire", "Base du médicament FACA® (Faca) homologué au Burkina Faso pour la drépanocytose, réduit la fréquence des crises vaso-occlusives."],
+      ["Antipaludique d'appoint", "La décoction d'écorce est utilisée contre les fièvres palustres dans toute l'aire ouest-africaine."],
+      ["Hygiène bucco-dentaire", "Les rameaux mâchés (sothiou) blanchissent les dents et préviennent les caries grâce aux alcaloïdes antibactériens."],
+      ["Antalgique dentaire", "Application directe d'écorce sur la gencive douloureuse pour calmer rage de dent et abcès."]
+    ],
+    "preps": [
+      ["Bâton à mâcher", "Mâcher quotidiennement un rameau de 10 à 15 cm pour l'hygiène buccale"],
+      ["Décoction d'écorce", "20 g d'écorce dans 1 L d'eau, bouillir 15 min, boire 1 tasse 3 fois par jour"],
+      ["Poudre de racine", "1 g par jour réparti en 2 prises pour la drépanocytose (suivi médical)"]
+    ],
+    "warns": [
+      ["caution", "Interactions possibles avec les anticoagulants et antihypertenseurs"],
+      ["danger", "Déconseillé pendant la grossesse"],
+      ["info", "Espèce protégée dans certains pays — privilégier les filières durables"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "1500 à 3000 FCFA / kg"
+  },
+  {
+    "id": "touloucouna",
+    "cat": "fruit",
+    "name": "Carapa",
+    "name_latin": "Carapa procera",
+    "name_wolof": "Touloucouna",
+    "name_bambara": "Kobi",
+    "summary": "Grand arbre des forêts humides et galeries forestières d'Afrique de l'Ouest. Ses graines fournissent une huile végétale amère (huile de touloucouna) très réputée en cosmétique et dermatologie traditionnelles.",
+    "effs": ["dermatologique", "antiparasitaire", "antiinflammatoire", "repulsif", "cicatrisant"],
+    "actifs": [
+      "Limonoïdes (gédunine, méthyl angolensate) — Activité antipaludique et antiparasitaire",
+      "Acides gras insaturés — Action émolliente et nourrissante cutanée",
+      "Tanins — Effet astringent",
+      "Triterpénoïdes — Propriétés anti-inflammatoires"
+    ],
+    "props": [
+      ["Soin de la peau", "L'huile assouplit la peau, prévient les vergetures et est utilisée contre l'eczéma et le psoriasis."],
+      ["Antiparasitaire externe", "Efficace contre la gale, les poux et les tiques par massage de l'huile sur les zones atteintes."],
+      ["Répulsif anti-moustiques", "L'huile appliquée sur la peau exposée éloigne les moustiques et autres insectes piqueurs."],
+      ["Cicatrisation des brûlures", "Application directe sur brûlures du 1er et 2e degré pour favoriser la régénération cutanée."]
+    ],
+    "preps": [
+      ["Huile en massage", "Masser 5 à 10 ml d'huile pure sur la zone concernée 1 à 2 fois par jour"],
+      ["Onguent dermatologique", "Mélanger 50% huile de touloucouna et 50% beurre de karité pour application sur dermatoses"],
+      ["Décoction d'écorce", "30 g d'écorce dans 1 L d'eau, bouillir 20 min, en bain pour les démangeaisons"]
+    ],
+    "warns": [
+      ["caution", "Réservée à l'usage externe — la consommation interne est déconseillée (toxicité hépatique)"],
+      ["info", "Odeur amère caractéristique : ne pas confondre avec une huile rance"],
+      ["caution", "Test cutané préalable recommandé en cas de peau sensible"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "3000 à 6000 FCFA / kg (graines) — 5000 à 10000 FCFA / L (huile)"
+  },
+  {
+    "id": "mbatar",
+    "cat": "ecorce",
+    "name": "Entada d'Afrique",
+    "name_latin": "Entada africana",
+    "name_wolof": "Mbatar",
+    "name_bambara": "Samanéré",
+    "summary": "Arbre de savane de la famille des Mimosacées, largement répandu dans le Sahel. Son écorce et ses racines sont couramment prescrites par les tradipraticiens pour les troubles hépatiques et digestifs.",
+    "effs": ["hepatoprotecteur", "antiinflammatoire", "antibacterien", "cicatrisant", "antalgique"],
+    "actifs": [
+      "Saponines triterpéniques — Effet hépatoprotecteur et anti-inflammatoire",
+      "Tanins — Action astringente et antibactérienne",
+      "Flavonoïdes — Propriétés antioxydantes",
+      "Alcaloïdes — Activité antalgique"
+    ],
+    "props": [
+      ["Hépatoprotection", "L'écorce est traditionnellement utilisée pour soigner les hépatites virales et la jaunisse, avec confirmation expérimentale d'effets hépatoprotecteurs."],
+      ["Cicatrisation des plaies chroniques", "La poudre d'écorce sèche appliquée sur les plaies torpides accélère la granulation."],
+      ["Antidouleur articulaire", "Les bains de décoction d'écorce soulagent les rhumatismes et lombalgies."],
+      ["Antiulcéreux gastrique", "La décoction est utilisée pour traiter les ulcères et les gastrites."]
+    ],
+    "preps": [
+      ["Décoction d'écorce", "30 g d'écorce broyée dans 1 L d'eau, bouillir 20 min, boire 1 verre 3 fois par jour pendant 7 jours"],
+      ["Poudre cicatrisante", "Saupoudrer la plaie nettoyée avec la poudre d'écorce sèche, renouveler quotidiennement"],
+      ["Bain", "200 g d'écorce dans 5 L d'eau, bouillir 30 min, prendre en bain ou en compresse chaude"]
+    ],
+    "warns": [
+      ["caution", "Cures longues à éviter en raison du risque hépatique paradoxal à fortes doses"],
+      ["danger", "Déconseillé pendant la grossesse et chez l'enfant de moins de 5 ans"],
+      ["info", "Toujours associer une réhydratation adéquate"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "800 à 1500 FCFA / kg"
+  },
+  {
+    "id": "gargam-bose",
+    "cat": "feuille",
+    "name": "Centaurée de Perrottet",
+    "name_latin": "Centaurea perrottetii",
+    "name_wolof": "Gargam bosé",
+    "name_bambara": "Daba bosé",
+    "summary": "Herbacée épineuse de la famille des Astéracées poussant dans les zones sahéliennes et soudaniennes. Plante médicinale moins connue mais très prisée des tradipraticiens pour ses vertus tonique-amères et anti-inflammatoires.",
+    "effs": ["amer", "antiinflammatoire", "diuretique", "tonique", "antipaludique"],
+    "actifs": [
+      "Sesquiterpènes lactones — Action amère et anti-inflammatoire",
+      "Flavonoïdes — Effet antioxydant et antipaludique léger",
+      "Tanins — Activité astringente",
+      "Composés phénoliques — Propriétés diurétiques"
+    ],
+    "props": [
+      ["Tonique digestif amer", "La décoction des parties aériennes stimule l'appétit et la sécrétion biliaire."],
+      ["Anti-inflammatoire articulaire", "Les cataplasmes de feuilles fraîches soulagent les douleurs musculaires et articulaires."],
+      ["Diurétique léger", "Augmente la diurèse et est utilisée dans les œdèmes et la rétention urinaire."],
+      ["Antipaludique d'appoint", "Entre dans les compositions polyherbales prescrites pour les fièvres palustres."]
+    ],
+    "preps": [
+      ["Décoction", "20 g de plante séchée dans 1 L d'eau, bouillir 10 min, boire 1 tasse avant les repas"],
+      ["Cataplasme", "Feuilles fraîches pilées appliquées en cataplasme sur les zones douloureuses pendant 1 heure"],
+      ["Infusion tonique", "5 g de plante dans 250 ml d'eau bouillante, infuser 10 min, boire le matin à jeun"]
+    ],
+    "warns": [
+      ["caution", "Goût très amer pouvant provoquer nausées à dose excessive"],
+      ["info", "Manipulation prudente en raison des épines"],
+      ["caution", "Déconseillé pendant la grossesse"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "1000 à 2500 FCFA / kg"
+  },
+  {
+    "id": "ndamb",
+    "cat": "racine",
+    "name": "Souchet comestible",
+    "name_latin": "Cyperus esculentus",
+    "name_wolof": "Ndamb",
+    "name_bambara": "Tigani",
+    "summary": "Plante herbacée vivace produisant de petits tubercules comestibles très appréciés au Sénégal, notamment pour la confection du jus de souchet et de boissons rafraîchissantes. Aliment-médicament riche en nutriments.",
+    "effs": ["nutritif", "aphrodisiaque", "diuretique", "energisant", "digestif"],
+    "actifs": [
+      "Acides gras mono-insaturés (acide oléique) — Bénéfices cardiovasculaires",
+      "Amidon résistant — Effet prébiotique et régulateur glycémique",
+      "Vitamine E et magnésium — Antioxydant et neuroprotecteur",
+      "Arginine — Précurseur d'oxyde nitrique, vasodilatateur"
+    ],
+    "props": [
+      ["Aliment énergétique", "Riche en glucides complexes, protéines et lipides sains : excellent pour la convalescence et les sportifs."],
+      ["Tonique sexuel masculin", "Réputation populaire d'aphrodisiaque et de stimulant de la vigueur, soutenue par sa richesse en arginine."],
+      ["Diurétique doux", "La décoction de tubercules favorise l'élimination urinaire."],
+      ["Régulateur intestinal", "L'amidon résistant améliore le microbiote et lutte contre constipation."]
+    ],
+    "preps": [
+      ["Jus de souchet", "200 g de tubercules trempés 24 h, mixer avec 1 L d'eau et filtrer, sucrer et parfumer à la vanille"],
+      ["Tubercules grillés", "Consommer comme en-cas, 30 à 50 g par jour"],
+      ["Décoction diurétique", "30 g de tubercules dans 1 L d'eau, bouillir 15 min, boire 2 verres par jour"]
+    ],
+    "warns": [
+      ["info", "Aliment globalement très sûr, sans toxicité connue"],
+      ["caution", "Apport calorique élevé : modérer la consommation en cas de surpoids"],
+      ["info", "Bien tremper les tubercules secs avant utilisation pour éliminer la poussière"]
+    ],
+    "disponibilite_dakar": "Très élevée",
+    "prix_dakar": "1500 à 2500 FCFA / kg"
+  },
+  {
+    "id": "balo",
+    "cat": "racine",
+    "name": "Cissus à feuilles de peuplier",
+    "name_latin": "Cissus populnea",
+    "name_wolof": "Balo",
+    "name_bambara": "Daba",
+    "summary": "Liane ligneuse de la famille des Vitacées, à racines mucilagineuses très utilisées en médecine traditionnelle ouest-africaine pour leurs propriétés fortifiantes et galactogènes.",
+    "effs": ["fortifiant", "galactogene", "fracture", "antianemique", "fertilite"],
+    "actifs": [
+      "Mucilages — Propriétés émollientes et cicatrisantes",
+      "Saponines stéroïdiennes — Effet anabolisant et fortifiant",
+      "Flavonoïdes — Activité antioxydante",
+      "Calcium et fer — Soutien à la minéralisation osseuse et à l'érythropoïèse"
+    ],
+    "props": [
+      ["Consolidation des fractures", "La pâte de racine fraîche est appliquée en cataplasme pour accélérer la consolidation osseuse."],
+      ["Galactogène post-partum", "La décoction est administrée aux nourrices pour stimuler la lactation."],
+      ["Tonique pour homme", "Réputation d'augmenter la fertilité masculine et la libido."],
+      ["Antianémique", "La poudre de racine est prescrite dans les anémies, particulièrement chez la femme enceinte."]
+    ],
+    "preps": [
+      ["Cataplasme de racine", "Râper la racine fraîche, appliquer en pâte épaisse maintenue par bandage, renouveler quotidiennement"],
+      ["Décoction galactogène", "30 g de racine dans 1 L d'eau, bouillir 20 min, boire 2 à 3 verres par jour pendant la lactation"],
+      ["Poudre de racine", "1 cuillère à café dans une bouillie ou tisane, 1 à 2 fois par jour"]
+    ],
+    "warns": [
+      ["caution", "Utiliser avec prudence pendant la grossesse — réservé aux situations encadrées par un tradipraticien"],
+      ["info", "La racine sèche perd une partie de ses mucilages : préférer la fraîche pour les cataplasmes"],
+      ["caution", "Surveiller les éventuelles interactions avec les médicaments hormonaux"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "1500 à 3000 FCFA / kg"
+  },
+  {
+    "id": "keno",
+    "cat": "ecorce",
+    "name": "Maytène du Sénégal",
+    "name_latin": "Maytenus senegalensis",
+    "name_wolof": "Keno",
+    "name_bambara": "Gégé",
+    "summary": "Arbuste épineux des savanes sèches d'Afrique de l'Ouest. Très utilisé en médecine traditionnelle pour les troubles digestifs, les douleurs musculo-squelettiques et les infections cutanées.",
+    "effs": ["antiinflammatoire", "antibacterien", "antiulcereux", "antalgique", "antitumoral"],
+    "actifs": [
+      "Maytansinoïdes — Activité antitumorale puissante (cible des conjugués anticancéreux modernes)",
+      "Triterpènes (friedeline, pristimerine) — Effet anti-inflammatoire et antimicrobien",
+      "Tanins — Action astringente et antiulcéreuse",
+      "Flavonoïdes — Propriétés antioxydantes"
+    ],
+    "props": [
+      ["Antiulcéreux gastrique", "La décoction d'écorce protège la muqueuse gastrique et favorise la cicatrisation des ulcères."],
+      ["Anti-inflammatoire articulaire", "Les bains et compresses d'écorce sont utilisés contre les rhumatismes et la sciatique."],
+      ["Antimicrobien cutané", "Application sur les plaies infectées, abcès et dermatoses bactériennes."],
+      ["Antitumoral en recherche", "Source des maytansinoïdes utilisés dans des conjugués anticorps-médicaments en oncologie moderne."]
+    ],
+    "preps": [
+      ["Décoction d'écorce", "20 g d'écorce dans 1 L d'eau, bouillir 20 min, boire 1 verre 2 fois par jour"],
+      ["Compresse antalgique", "Imbiber un linge dans la décoction concentrée et appliquer chaud sur la zone douloureuse"],
+      ["Poudre cicatrisante", "Saupoudrer les plaies nettoyées de poudre d'écorce sèche"]
+    ],
+    "warns": [
+      ["danger", "Pas d'auto-médication à fortes doses : présence de composés cytotoxiques"],
+      ["caution", "Déconseillé pendant la grossesse et l'allaitement"],
+      ["info", "Espèce de plus en plus rare — privilégier les filières durables et l'écorce non décollée intégralement"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "2000 à 4000 FCFA / kg"
+  },
+  {
+    "id": "faftan",
+    "cat": "feuille",
+    "name": "Pommier de Sodome",
+    "name_latin": "Calotropis procera",
+    "name_wolof": "Faftan",
+    "name_bambara": "Pomporogo",
+    "summary": "Arbuste sahélien à latex blanc abondant, très commun dans les zones dégradées et les bords de route. Plante à fort potentiel médicinal mais toxique nécessitant une utilisation prudente et encadrée.",
+    "effs": ["antiinflammatoire", "antalgique", "antiparasitaire", "purgatif", "vesicant"],
+    "actifs": [
+      "Cardénolides (calotropine, uscharine) — Toxiques cardiotoniques puissants",
+      "Latex protéases (calotropaïne) — Activité protéolytique et anti-inflammatoire",
+      "Triterpènes — Effet anti-inflammatoire",
+      "Flavonoïdes — Propriétés antioxydantes"
+    ],
+    "props": [
+      ["Antalgique externe", "Le latex appliqué sur les douleurs dentaires et articulaires apporte un soulagement rapide (usage local strict)."],
+      ["Antiparasitaire et insecticide", "Utilisé contre les poux, la gale et certains vers intestinaux (usage externe)."],
+      ["Cicatrisation des cors et verrues", "Application ponctuelle de latex pour faire tomber cors et verrues."],
+      ["Anti-inflammatoire", "Les feuilles chauffées appliquées sur abcès et œdèmes hâtent la résorption."]
+    ],
+    "preps": [
+      ["Feuilles chauffées", "Réchauffer les feuilles fraîches sur la braise, appliquer tièdes sur abcès ou douleurs articulaires"],
+      ["Latex local", "Appliquer une goutte de latex frais sur cor ou verrue avec coton-tige, 1 fois par jour, 5 jours maximum"],
+      ["Lotion antiparasitaire", "Macérer 100 g de feuilles dans 1 L d'eau pendant 24 h, filtrer, en lotion sur cuir chevelu"]
+    ],
+    "warns": [
+      ["danger", "Plante hautement toxique — usage interne strictement contre-indiqué hors prescription tradithérapeute expérimenté"],
+      ["danger", "Le latex est vésicant et peut provoquer des brûlures cutanées et oculaires graves : protéger les yeux"],
+      ["danger", "Cardénolides similaires à la digitaline : risque d'arrêt cardiaque en cas d'ingestion"]
+    ],
+    "disponibilite_dakar": "Très élevée",
+    "prix_dakar": "200 à 500 FCFA / kg"
+  },
+  {
+    "id": "dugor",
+    "cat": "feuille",
+    "name": "Pomme cannelle du Sénégal",
+    "name_latin": "Annona senegalensis",
+    "name_wolof": "Dugor",
+    "name_bambara": "Mandé sounsoun",
+    "summary": "Arbuste ou petit arbre de savane à fruits sucrés très appréciés. Toutes les parties (feuilles, racines, écorces, fruits) sont utilisées en médecine traditionnelle pour de multiples indications.",
+    "effs": ["antipaludique", "antibacterien", "antitussif", "antidiarrheique", "antiinflammatoire"],
+    "actifs": [
+      "Acétogénines d'Annonacées — Activité antitumorale et antiparasitaire (à doses contrôlées)",
+      "Alcaloïdes isoquinoléiques — Effets pharmacologiques variés",
+      "Tanins — Action astringente et antidiarrhéique",
+      "Huile essentielle (β-caryophyllène) — Anti-inflammatoire et antimicrobien"
+    ],
+    "props": [
+      ["Antipaludique traditionnel", "La décoction de feuilles ou d'écorces de racines est utilisée contre les fièvres palustres."],
+      ["Antitussif et antiasthmatique", "L'infusion de feuilles soulage la toux, la bronchite et l'asthme."],
+      ["Antidiarrhéique et antidysentérique", "L'écorce des racines stoppe diarrhées et dysenteries."],
+      ["Cicatrisation des morsures de serpent", "Application traditionnelle de pâte d'écorce sur les morsures (en complément du traitement médical)."]
+    ],
+    "preps": [
+      ["Décoction de feuilles", "30 g de feuilles dans 1 L d'eau, bouillir 10 min, boire 2 verres par jour"],
+      ["Décoction d'écorce de racine", "15 g d'écorce dans 500 ml d'eau, bouillir 20 min, boire 1 verre matin et soir"],
+      ["Cataplasme", "Pâte de feuilles fraîches pilées sur plaies, abcès ou morsures (consultation médicale obligatoire)"]
+    ],
+    "warns": [
+      ["caution", "Les acétogénines des Annonacées sont neurotoxiques en exposition chronique : éviter les cures prolongées"],
+      ["danger", "Ne jamais substituer un traitement médical urgent (paludisme grave, morsure venimeuse) par cette plante seule"],
+      ["info", "Le fruit mûr est un aliment sain et savoureux"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "800 à 1500 FCFA / kg"
+  },
+  {
+    "id": "djar",
+    "cat": "epice",
+    "name": "Poivre de Guinée",
+    "name_latin": "Xylopia aethiopica",
+    "name_wolof": "Djar",
+    "name_bambara": "Ka",
+    "summary": "Arbre des forêts humides d'Afrique tropicale dont les fruits noirs en cosse, très aromatiques et piquants, constituent une épice majeure de la cuisine ouest-africaine et un remède traditionnel polyvalent.",
+    "effs": ["digestif", "antiinflammatoire", "antibacterien", "carminatif", "antalgique"],
+    "actifs": [
+      "Huile essentielle riche en β-pinène et myrtenol — Action antimicrobienne et carminative",
+      "Diterpènes kauréniques (xylopiose) — Anti-inflammatoire et antiparasitaire",
+      "Alcaloïdes — Effet antalgique léger",
+      "Flavonoïdes — Activité antioxydante"
+    ],
+    "props": [
+      ["Digestif et carminatif", "Stimule la digestion, calme les ballonnements et les coliques après repas copieux."],
+      ["Anti-inflammatoire post-partum", "Très utilisé en tisane après l'accouchement pour favoriser l'involution utérine et la récupération."],
+      ["Antalgique articulaire", "La décoction concentrée est utilisée en boisson et bain pour soulager rhumatismes et lombalgies."],
+      ["Antimicrobien respiratoire", "Soulage toux, bronchites et angines grâce à l'huile essentielle aromatique."]
+    ],
+    "preps": [
+      ["Tisane épicée", "5 à 10 fruits écrasés dans 1 L d'eau, bouillir 10 min, boire 2 tasses par jour"],
+      ["Épice culinaire", "Ajouter 2 à 3 fruits dans les sauces, soupes et plats mijotés (yassa, mafé)"],
+      ["Bain post-partum", "100 g de fruits broyés dans 5 L d'eau bouillante, prendre en bain de siège tiède"]
+    ],
+    "warns": [
+      ["caution", "Effet hypotenseur léger — surveiller en cas de tension basse"],
+      ["info", "Goût très piquant : commencer par de petites doses"],
+      ["caution", "Cures internes prolongées à éviter (potentiel hépatique)"]
+    ],
+    "disponibilite_dakar": "Élevée",
+    "prix_dakar": "3000 à 6000 FCFA / kg"
+  },
+  {
+    "id": "kola",
+    "cat": "fruit",
+    "name": "Noix de kola",
+    "name_latin": "Cola nitida",
+    "name_wolof": "Kola",
+    "name_bambara": "Woro",
+    "summary": "Arbre des forêts humides ouest-africaines dont les graines (noix de kola) sont au cœur de pratiques sociales, religieuses et thérapeutiques. Stimulant naturel riche en caféine et théobromine.",
+    "effs": ["stimulant", "digestif", "diuretique", "antidepresseur", "thermogenique"],
+    "actifs": [
+      "Caféine (1,5 à 2,5 %) — Stimulant nerveux central, diurétique, thermogénique",
+      "Théobromine — Vasodilatateur et stimulant cardiaque doux",
+      "Tanins catéchiques — Effet astringent et antidiarrhéique",
+      "Polyphénols — Activité antioxydante"
+    ],
+    "props": [
+      ["Stimulant intellectuel et physique", "Améliore la vigilance, retarde la fatigue et stimule l'attention sans excitation marquée."],
+      ["Tonique digestif", "Aide à la digestion des repas lourds et possède un effet anti-nauséeux."],
+      ["Coupe-faim et soutien minceur", "Effet thermogénique modéré utilisé dans les régimes amaigrissants."],
+      ["Soutien moral léger", "Réputation traditionnelle de remonter le moral, confirmée par l'effet stimulant des méthylxanthines."]
+    ],
+    "preps": [
+      ["Mastication directe", "Mâcher 1/2 à 1 noix fraîche le matin (équivalent 100 mg de caféine)"],
+      ["Poudre de noix", "1 cuillère à café (3 g) dans une boisson, 1 à 2 fois par jour avant 16 h"],
+      ["Décoction tonique", "10 g de poudre dans 250 ml d'eau, bouillir 5 min, boire le matin"]
+    ],
+    "warns": [
+      ["danger", "Contre-indiqué en cas d'hypertension, arythmie, ulcère gastrique, anxiété sévère et grossesse"],
+      ["caution", "Risque d'insomnie : éviter après 16 h"],
+      ["caution", "Interactions avec antihypertenseurs, anticoagulants et antidépresseurs"]
+    ],
+    "disponibilite_dakar": "Très élevée",
+    "prix_dakar": "3000 à 8000 FCFA / kg (selon qualité)"
+  },
+  {
+    "id": "bombax-costatum",
+    "cat": "fleur",
+    "name": "Faux kapokier",
+    "name_latin": "Bombax costatum",
+    "name_wolof": "Garab boudi",
+    "name_bambara": "Bumu",
+    "summary": "Grand arbre de savane à floraison rouge spectaculaire en saison sèche. Ses fleurs (kapokier rouge) sont très consommées en sauce, notamment pour le « kapok » mijoté, et possèdent des vertus médicinales reconnues.",
+    "effs": ["mucilagineux", "antiinflammatoire", "galactogene", "nutritif", "antidiarrheique"],
+    "actifs": [
+      "Mucilages végétaux — Effet émollient et anti-inflammatoire des muqueuses",
+      "Polysaccharides — Action immunomodulante et prébiotique",
+      "Tanins — Effet astringent",
+      "Vitamines (A, C) et minéraux (calcium, fer) — Apport nutritionnel"
+    ],
+    "props": [
+      ["Sauce nutritive traditionnelle", "Les fleurs séchées entrent dans la préparation du « bumu » ou « kapokier », sauce hautement nutritive."],
+      ["Anti-inflammatoire digestif", "Les mucilages calment les gastrites, ulcères et inflammations intestinales."],
+      ["Galactogène doux", "Utilisé pour soutenir la lactation des nourrices."],
+      ["Antidiarrhéique", "L'écorce et les racines servent contre les diarrhées et dysenteries."]
+    ],
+    "preps": [
+      ["Sauce de fleurs", "Cuire 100 g de fleurs séchées avec poisson ou viande, à consommer avec du riz ou du couscous"],
+      ["Décoction d'écorce", "20 g d'écorce dans 1 L d'eau, bouillir 15 min, boire 1 verre 2 fois par jour"],
+      ["Mucilage adoucissant", "Tremper 30 g de fleurs dans 500 ml d'eau froide 2 h, boire en cas de gastrite"]
+    ],
+    "warns": [
+      ["info", "Plante alimentaire bien tolérée"],
+      ["caution", "Les écorces à dose élevée peuvent être laxatives"],
+      ["info", "Espèce protégée localement : préférer les filières durables"]
+    ],
+    "disponibilite_dakar": "Élevée",
+    "prix_dakar": "1000 à 2000 FCFA / kg (fleurs séchées)"
+  },
+  {
+    "id": "bati",
+    "cat": "ecorce",
+    "name": "Pêcher africain",
+    "name_latin": "Nauclea latifolia",
+    "name_wolof": "Bati",
+    "name_bambara": "Bati",
+    "summary": "Arbuste sarmenteux des savanes humides à fruits ronds rouges comestibles. L'une des plantes les plus prescrites par les tradipraticiens d'Afrique de l'Ouest pour le paludisme, les douleurs et les troubles digestifs.",
+    "effs": ["antipaludique", "antalgique", "antibacterien", "antidiarrheique", "antidiabetique"],
+    "actifs": [
+      "Alcaloïdes indoliques (naucléfine, naucléidinal) — Activité antipaludique et antalgique opioïde-like",
+      "Saponines — Action anti-inflammatoire",
+      "Tanins — Effet astringent et antibactérien",
+      "Polyphénols — Propriétés antioxydantes et antidiabétiques"
+    ],
+    "props": [
+      ["Antipaludique majeur", "Les alcaloïdes ont une activité antiplasmodiale documentée ; la décoction est utilisée pour les fièvres palustres."],
+      ["Antalgique central", "Effet analgésique comparable à de faibles doses de tramadol selon des études récentes."],
+      ["Antidiabétique", "Hypoglycémiant doux utilisé dans le suivi du diabète de type 2."],
+      ["Antidiarrhéique", "L'écorce de racine traite efficacement diarrhées et dysenteries."]
+    ],
+    "preps": [
+      ["Décoction d'écorce de racine", "30 g d'écorce dans 1 L d'eau, bouillir 30 min, boire 1 verre 3 fois par jour pendant 5 jours"],
+      ["Macération", "50 g d'écorce dans 1 L d'eau froide pendant 24 h, filtrer, boire 2 verres par jour"],
+      ["Tisane antidiabétique", "15 g d'écorce dans 500 ml d'eau, bouillir 15 min, boire avant les repas"]
+    ],
+    "warns": [
+      ["danger", "Effet antalgique opioïde-like : risque de dépendance en usage chronique"],
+      ["caution", "Surveiller la glycémie en cas de prise concomitante d'antidiabétiques"],
+      ["caution", "Déconseillé pendant la grossesse"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "1500 à 3000 FCFA / kg"
+  },
+  {
+    "id": "wolo",
+    "cat": "ecorce",
+    "name": "Badamier de savane",
+    "name_latin": "Terminalia avicennioides",
+    "name_wolof": "Wolo",
+    "name_bambara": "Wolo",
+    "summary": "Arbre de savane soudano-sahélienne à écorce rugueuse riche en tanins. Largement utilisé pour traiter les infections et les troubles dermatologiques en médecine traditionnelle ouest-africaine.",
+    "effs": ["antibacterien", "antifongique", "cicatrisant", "antidiarrheique", "antitubercculeux"],
+    "actifs": [
+      "Tanins ellagiques — Action astringente et antimicrobienne puissante",
+      "Acide ellagique — Activité antitumorale et antibactérienne",
+      "Triterpènes — Effet anti-inflammatoire",
+      "Flavonoïdes — Propriétés antioxydantes"
+    ],
+    "props": [
+      ["Antibactérien à large spectre", "Activité démontrée contre Staphylococcus aureus, E. coli et Mycobacterium tuberculosis."],
+      ["Cicatrisant des plaies chroniques", "La poudre d'écorce assèche et désinfecte les plaies, ulcères et brûlures infectées."],
+      ["Antidiarrhéique et antidysentérique", "La décoction stoppe rapidement les diarrhées d'origine infectieuse."],
+      ["Antitussif et expectorant", "Utilisée contre les bronchites, toux chroniques et tuberculose en complément."]
+    ],
+    "preps": [
+      ["Poudre cicatrisante", "Saupoudrer la plaie nettoyée de poudre d'écorce sèche, renouveler 1 fois par jour"],
+      ["Décoction antidiarrhéique", "20 g d'écorce dans 1 L d'eau, bouillir 15 min, boire 1 verre toutes les 4 h"],
+      ["Bain de bouche", "10 g d'écorce dans 250 ml d'eau bouillie, en bain de bouche contre aphtes et gingivites"]
+    ],
+    "warns": [
+      ["caution", "Tanins en excès : risque de constipation et nausées"],
+      ["info", "Coloration brune temporaire des dents en cas d'usage buccal prolongé"],
+      ["caution", "Cures internes limitées à 10 jours"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "800 à 1800 FCFA / kg"
+  },
+  {
+    "id": "lannea-acida",
+    "cat": "ecorce",
+    "name": "Raisinier sauvage",
+    "name_latin": "Lannea acida",
+    "name_wolof": "Sone",
+    "name_bambara": "Mpekun",
+    "summary": "Petit arbre des savanes ouest-africaines à fruits acidulés comestibles. Son écorce rougeâtre, riche en tanins, est utilisée traditionnellement pour les soins dermatologiques, les maux d'estomac et les douleurs.",
+    "effs": ["astringent", "antidiarrheique", "antiulcereux", "cicatrisant", "antalgique"],
+    "actifs": [
+      "Tanins condensés — Action astringente, antibactérienne et antiulcéreuse",
+      "Anthocyanes — Effet antioxydant",
+      "Acides phénoliques — Activité anti-inflammatoire",
+      "Flavonoïdes — Propriétés vasculoprotectrices"
+    ],
+    "props": [
+      ["Antidiarrhéique de référence", "La décoction d'écorce stoppe rapidement les diarrhées banales et est très utilisée chez les enfants (à doses adaptées)."],
+      ["Antiulcéreux gastrique", "Effet protecteur de la muqueuse gastrique, utilisée dans les gastrites et ulcères."],
+      ["Cicatrisation des plaies", "Bains et lavages de plaies avec la décoction concentrée."],
+      ["Antalgique dentaire", "Bain de bouche contre les rages de dent et les gingivites."]
+    ],
+    "preps": [
+      ["Décoction antidiarrhéique", "15 g d'écorce dans 500 ml d'eau, bouillir 10 min, boire 1/2 verre toutes les 4 h"],
+      ["Bain de plaies", "50 g d'écorce dans 1 L d'eau, bouillir 20 min, laver les plaies à tiède"],
+      ["Bain de bouche", "10 g d'écorce dans 250 ml d'eau bouillie, gargariser plusieurs fois par jour"]
+    ],
+    "warns": [
+      ["caution", "Constipation possible en cas de cure prolongée"],
+      ["info", "Privilégier l'écorce non mordillée par les insectes pour éviter les contaminations"],
+      ["caution", "Doses pédiatriques à diviser par 3 ou 4"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "1000 à 2000 FCFA / kg"
+  },
+  {
+    "id": "grewia-bicolor",
+    "cat": "feuille",
+    "name": "Grewia bicolore",
+    "name_latin": "Grewia bicolor",
+    "name_wolof": "Kel",
+    "name_bambara": "Noron",
+    "summary": "Arbuste des savanes sahéliennes à feuilles bicolores et fruits rouges sucrés. Utilisé en médecine traditionnelle pour les troubles digestifs, respiratoires et les douleurs articulaires.",
+    "effs": ["antitussif", "antiinflammatoire", "antidiarrheique", "fortifiant", "antalgique"],
+    "actifs": [
+      "Mucilages — Effet adoucissant respiratoire et digestif",
+      "Tanins — Action astringente",
+      "Flavonoïdes — Activité anti-inflammatoire",
+      "Vitamines et minéraux — Apport nutritionnel via les fruits"
+    ],
+    "props": [
+      ["Antitussif et émollient respiratoire", "L'infusion de feuilles ou d'écorce calme les toux sèches et irritations bronchiques."],
+      ["Antidiarrhéique léger", "Décoction d'écorce contre les diarrhées chez l'enfant comme chez l'adulte."],
+      ["Anti-inflammatoire articulaire", "Cataplasmes et bains de feuilles pour les rhumatismes et entorses."],
+      ["Tonique et nutritif", "Les fruits frais sont consommés comme fortifiant et apport vitaminique."]
+    ],
+    "preps": [
+      ["Infusion antitussive", "10 g de feuilles dans 250 ml d'eau bouillante, infuser 10 min, boire 3 tasses par jour"],
+      ["Décoction d'écorce", "20 g d'écorce dans 1 L d'eau, bouillir 15 min, boire 1 verre 2 fois par jour"],
+      ["Cataplasme", "Feuilles fraîches pilées, appliquées tièdes sur articulations douloureuses"]
+    ],
+    "warns": [
+      ["info", "Plante généralement bien tolérée"],
+      ["caution", "Cure prolongée déconseillée chez la femme enceinte"],
+      ["info", "Fruits sains, sans toxicité connue"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "800 à 1500 FCFA / kg"
+  },
+  {
+    "id": "acacia-macrostachya",
+    "cat": "ecorce",
+    "name": "Acacia à grands épis",
+    "name_latin": "Acacia macrostachya",
+    "name_wolof": "Dégèr",
+    "name_bambara": "Zegene",
+    "summary": "Arbuste épineux sarmenteux des savanes ouest-africaines aux graines comestibles très nutritives. Utilisé en alimentation traditionnelle (graines pilées en sauce) et en médecine populaire pour les troubles digestifs.",
+    "effs": ["antidiarrheique", "antianemique", "nutritif", "antiinflammatoire", "antitussif"],
+    "actifs": [
+      "Tanins — Action astringente et antibactérienne",
+      "Protéines végétales (jusqu'à 30 % dans les graines) — Apport nutritionnel élevé",
+      "Fer et calcium — Effet antianémique et minéralisant",
+      "Saponines — Activité expectorante"
+    ],
+    "props": [
+      ["Aliment-médicament antianémique", "Les graines pilées en farine ou en sauce sont prescrites aux femmes enceintes et enfants pour lutter contre la malnutrition et l'anémie."],
+      ["Antidiarrhéique", "L'écorce et les gousses tannées sont utilisées contre les diarrhées et dysenteries."],
+      ["Anti-inflammatoire respiratoire", "Décoction d'écorce contre toux et bronchites chroniques."],
+      ["Soutien post-partum", "Sauce de graines administrée aux jeunes mères pour la récupération nutritionnelle."]
+    ],
+    "preps": [
+      ["Sauce de graines", "Décortiquer 100 g de graines, piler en farine, intégrer à une sauce avec poisson ou viande"],
+      ["Décoction d'écorce", "20 g d'écorce dans 1 L d'eau, bouillir 20 min, boire 1 verre 2 fois par jour"],
+      ["Bouillie fortifiante", "30 g de farine de graines dans une bouillie de mil, 1 fois par jour"]
+    ],
+    "warns": [
+      ["caution", "Toujours bien décortiquer et cuire les graines avant consommation"],
+      ["info", "Graines très nutritives mais à consommer en quantité raisonnable"],
+      ["caution", "Tanins de l'écorce : limiter la cure interne à 7 jours"]
+    ],
+    "disponibilite_dakar": "Moyenne",
+    "prix_dakar": "1500 à 3000 FCFA / kg (graines) — 800 FCFA / kg (écorce)"
+  },
+  {
+    "id": "waltheria-indica",
+    "cat": "feuille",
+    "name": "Waltheria",
+    "name_latin": "Waltheria indica",
+    "name_wolof": "Mbal saf",
+    "name_bambara": "Tagama",
+    "summary": "Plante herbacée vivace de la famille des Sterculiacées, très commune dans les jachères et bords de chemins en Afrique de l'Ouest. Plante médicinale polyvalente surtout utilisée pour les voies respiratoires et la sphère uro-génitale.",
+    "effs": ["antitussif", "antiinflammatoire", "antalgique", "antidiarrheique", "uroprotecteur"],
+    "actifs": [
+      "Alcaloïdes (waltheriones) — Activité antalgique, antimicrobienne et antiplasmodiale",
+      "Flavonoïdes — Effet anti-inflammatoire",
+      "Tanins — Action astringente",
+      "Mucilages — Propriétés émollientes"
+    ],
+    "props": [
+      ["Antitussif et antibronchitique", "L'infusion de plante entière calme les toux sèches, bronchites et asthme."],
+      ["Anti-inflammatoire urinaire", "Utilisé dans les cystites, urétrites et calculs rénaux."],
+      ["Antalgique gynécologique", "Décoction contre les dysménorrhées et règles douloureuses."],
+      ["Antidiarrhéique léger", "La décoction de racines stoppe les diarrhées banales."]
+    ],
+    "preps": [
+      ["Infusion respiratoire", "15 g de feuilles séchées dans 500 ml d'eau bouillante, infuser 10 min, boire 2 à 3 tasses par jour"],
+      ["Décoction urinaire", "30 g de plante entière dans 1 L d'eau, bouillir 15 min, boire 3 verres par jour pendant 5 jours"],
+      ["Décoction de racines", "20 g de racines dans 500 ml d'eau, bouillir 20 min, boire 1 verre matin et soir"]
+    ],
+    "warns": [
+      ["caution", "Utilisation prolongée déconseillée — limiter à 10 jours consécutifs"],
+      ["danger", "Déconseillé pendant la grossesse en raison des effets utérotoniques possibles"],
+      ["info", "Bien identifier la plante : risque de confusion avec d'autres herbacées"]
+    ],
+    "disponibilite_dakar": "Bonne",
+    "prix_dakar": "500 à 1200 FCFA / kg"
+  },
+  {
+    "id": "hexalobus-monopetalus",
+    "cat": "feuille",
+    "name": "Hexalobus à un pétale",
+    "name_latin": "Hexalobus monopetalus",
+    "name_wolof": "Khoubir",
+    "name_bambara": "Sona",
+    "summary": "Arbre des savanes boisées d'Afrique de l'Ouest, de la famille des Annonacées. Ses feuilles, écorces et racines sont utilisées en médecine traditionnelle, notamment contre le paludisme et les douleurs.",
+    "effs": ["antipaludique", "antalgique", "antitussif", "antiinflammatoire", "antiparasitaire"],
+    "actifs": [
+      "Alcaloïdes isoquinoléiques — Activité antiplasmodiale et antalgique",
+      "Acétogénines d'Annonacées — Effet antitumoral et antiparasitaire",
+      "Flavonoïdes — Propriétés antioxydantes",
+      "Huile essentielle — Action antimicrobienne"
+    ],
+    "props": [
+      ["Antipaludique traditionnel", "La décoction d'écorce et de feuilles est utilisée pour traiter les fièvres palustres dans plusieurs pays ouest-africains."],
+      ["Antalgique général", "Soulage maux de tête, douleurs articulaires et douleurs lombaires."],
+      ["Antitussif", "Infusion de feuilles contre toux et affections respiratoires."],
+      ["Antiparasitaire intestinal", "Macération de racines contre certains vers intestinaux."]
+    ],
+    "preps": [
+      ["Décoction antipaludique", "30 g de feuilles ou écorce dans 1 L d'eau, bouillir 20 min, boire 1 verre 3 fois par jour pendant 5 jours"],
+      ["Infusion antalgique", "10 g de feuilles dans 250 ml d'eau bouillante, infuser 10 min, boire 2 tasses par jour"],
+      ["Bain antalgique", "100 g de feuilles dans 5 L d'eau bouillante, prendre en bain tiède contre les courbatures"]
+    ],
+    "warns": [
+      ["caution", "Acétogénines neurotoxiques en exposition chronique : éviter les cures prolongées"],
+      ["danger", "Ne pas substituer le traitement antipaludique conventionnel en cas de paludisme grave"],
+      ["caution", "Déconseillé pendant la grossesse et chez l'enfant de moins de 6 ans"]
+    ],
+    "disponibilite_dakar": "Faible",
+    "prix_dakar": "1500 à 3000 FCFA / kg"
+  },
+  {
+    "id": "indigofera-oblongifolia",
+    "cat": "feuille",
+    "name": "Indigotier à feuilles oblongues",
+    "name_latin": "Indigofera oblongifolia",
+    "name_wolof": "Ngat",
+    "name_bambara": "Gala",
+    "summary": "Petit arbuste des zones sèches d'Afrique de l'Ouest, de la famille des Fabacées. Utilisé en médecine traditionnelle contre les morsures de serpent, les inflammations et certaines affections cutanées.",
+    "effs": ["antivenimeux", "antiinflammatoire", "antibacterien", "cicatrisant", "antalgique"],
+    "actifs": [
+      "Indigotine et indirubine — Pigments aux propriétés antitumorales et anti-inflammatoires",
+      "Flavonoïdes — Effet antioxydant",
+      "Tanins — Action astringente",
+      "Alcaloïdes — Activité analgésique"
+    ],
+    "props": [
+      ["Antivenimeux d'urgence", "Cataplasme de feuilles fraîches appliqué sur morsures de serpent (en complément du sérum antivenimeux)."],
+      ["Anti-inflammatoire cutané", "Soulage piqûres d'insectes, abcès et œdèmes locaux."],
+      ["Antibactérien et cicatrisant", "Utilisé sur plaies infectées et ulcères cutanés."],
+      ["Antalgique articulaire", "Bains et compresses contre les rhumatismes."]
+    ],
+    "preps": [
+      ["Cataplasme antivenin", "Piler une poignée de feuilles fraîches, appliquer immédiatement sur la morsure (urgence médicale impérative en parallèle)"],
+      ["Décoction cicatrisante", "30 g de feuilles dans 1 L d'eau, bouillir 15 min, en lavage de plaies"],
+      ["Bain anti-inflammatoire", "100 g de plante entière dans 5 L d'eau, bouillir 20 min, en bain tiède"]
+    ],
+    "warns": [
+      ["danger", "Une morsure de serpent est une urgence vitale : la plante n'est qu'un complément, pas un substitut au sérum antivenimeux"],
+      ["caution", "Plante pouvant être hépatotoxique en usage interne prolongé"],
+      ["caution", "Déconseillé pendant la grossesse"]
+    ],
+    "disponibilite_dakar": "Faible",
+    "prix_dakar": "1200 à 2500 FCFA / kg"
+  }
+]
